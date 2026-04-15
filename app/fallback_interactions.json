@@ -1,0 +1,241 @@
+{
+  "interactions": [
+    {
+      "drug_a": "Warfarin",
+      "drug_b": "Aspirin",
+      "severity": "high",
+      "mechanism": "Additive anticoagulation effect combined with aspirin's antiplatelet action and GI mucosal damage increases risk of serious bleeding.",
+      "recommendation": "Avoid combination. If co-administration is required monitor INR closely and use lowest effective aspirin dose."
+    },
+    {
+      "drug_a": "Metformin",
+      "drug_b": "Alcohol",
+      "severity": "high",
+      "mechanism": "Both metformin and alcohol inhibit hepatic lactate metabolism. Co-ingestion significantly increases risk of lactic acidosis.",
+      "recommendation": "Advise patient to avoid alcohol entirely while on metformin. Monitor lactate levels if exposure suspected."
+    },
+    {
+      "drug_a": "Simvastatin",
+      "drug_b": "Clarithromycin",
+      "severity": "high",
+      "mechanism": "Clarithromycin is a potent CYP3A4 inhibitor. It markedly increases simvastatin plasma levels, raising the risk of myopathy and rhabdomyolysis.",
+      "recommendation": "Withhold simvastatin during clarithromycin course. Consider switching to a non-CYP3A4-metabolized statin (e.g., rosuvastatin, pravastatin)."
+    },
+    {
+      "drug_a": "Lisinopril",
+      "drug_b": "Potassium",
+      "severity": "high",
+      "mechanism": "ACE inhibitors reduce aldosterone-mediated potassium excretion. Supplemental potassium can cause life-threatening hyperkalemia.",
+      "recommendation": "Monitor serum potassium closely. Avoid potassium supplements unless documented hypokalemia. Consider dose adjustment."
+    },
+    {
+      "drug_a": "Fluoxetine",
+      "drug_b": "MAOIs",
+      "severity": "high",
+      "mechanism": "Both fluoxetine (SSRI) and MAOIs increase serotonin availability. Combination can precipitate serotonin syndrome \u00e2\u20ac\u201d a potentially fatal condition.",
+      "recommendation": "CONTRAINDICATED. Allow \u00e2\u2030\u00a514-day washout after MAOI before starting fluoxetine. Allow \u00e2\u2030\u00a55-week washout after fluoxetine before MAOI."
+    },
+    {
+      "drug_a": "Ibuprofen",
+      "drug_b": "Warfarin",
+      "severity": "medium",
+      "mechanism": "NSAIDs inhibit platelet aggregation and can cause GI mucosal injury, amplifying warfarin's anticoagulant effect.",
+      "recommendation": "Avoid routine co-use. If necessary, use lowest NSAID dose for shortest duration with close INR monitoring."
+    },
+    {
+      "drug_a": "Metoprolol",
+      "drug_b": "Verapamil",
+      "severity": "high",
+      "mechanism": "Combined beta-blocker and non-dihydropyridine calcium channel blocker causes additive negative chronotropy and dromotropy \u00e2\u20ac\u201d risk of bradycardia and AV block.",
+      "recommendation": "Avoid combination. If unavoidable, use very low doses with continuous cardiac monitoring."
+    },
+    {
+      "drug_a": "Ciprofloxacin",
+      "drug_b": "Theophylline",
+      "severity": "high",
+      "mechanism": "Ciprofloxacin inhibits CYP1A2, the primary enzyme metabolizing theophylline. Plasma theophylline levels can increase 2-3 fold, causing toxicity.",
+      "recommendation": "Reduce theophylline dose by 30\u00e2\u20ac\u201c50% during ciprofloxacin therapy. Monitor theophylline plasma levels closely."
+    },
+    {
+      "drug_a": "Digoxin",
+      "drug_b": "Amiodarone",
+      "severity": "high",
+      "mechanism": "Amiodarone inhibits P-glycoprotein and reduces renal clearance of digoxin, raising plasma digoxin levels and risk of toxicity.",
+      "recommendation": "Reduce digoxin dose by 50% when initiating amiodarone. Monitor serum digoxin levels and watch for toxicity signs."
+    },
+    {
+      "drug_a": "Clopidogrel",
+      "drug_b": "Omeprazole",
+      "severity": "medium",
+      "mechanism": "Omeprazole inhibits CYP2C19, the enzyme that converts clopidogrel to its active thiol metabolite, reducing antiplatelet efficacy.",
+      "recommendation": "Prefer pantoprazole or H2 blockers for GI protection in patients on clopidogrel."
+    },
+    {
+      "drug_a": "Lithium",
+      "drug_b": "NSAIDs",
+      "severity": "high",
+      "mechanism": "NSAIDs reduce renal prostaglandin synthesis and decrease renal blood flow, impairing lithium excretion and raising plasma levels to toxic ranges.",
+      "recommendation": "Avoid NSAIDs in patients on lithium. Use acetaminophen for analgesia. Monitor lithium levels if NSAID exposure occurs."
+    },
+    {
+      "drug_a": "Sildenafil",
+      "drug_b": "Nitrates",
+      "severity": "high",
+      "mechanism": "Both drugs enhance nitric oxide-mediated vasodilation via cGMP. Combination causes precipitous and potentially fatal hypotension.",
+      "recommendation": "ABSOLUTE CONTRAINDICATION. Do not co-administer under any circumstances. Nitrates are contraindicated within 24\u00e2\u20ac\u201c48h of sildenafil use."
+    },
+    {
+      "drug_a": "Tramadol",
+      "drug_b": "SSRIs",
+      "severity": "medium",
+      "mechanism": "Tramadol has serotonergic activity and inhibits serotonin/norepinephrine reuptake. Co-administration with SSRIs increases seizure and serotonin syndrome risk.",
+      "recommendation": "Use caution. Monitor for agitation, tremor, clonus, and other serotonin syndrome signs. Use minimum effective doses."
+    },
+    {
+      "drug_a": "Phenytoin",
+      "drug_b": "Warfarin",
+      "severity": "medium",
+      "mechanism": "Phenytoin initially inhibits warfarin metabolism (raises INR), then induces CYP2C9 (lowers INR). Highly variable and unpredictable interaction.",
+      "recommendation": "Monitor INR very closely during initiation and withdrawal of phenytoin. Frequent dose adjustment of warfarin may be required."
+    },
+    {
+      "drug_a": "Rifampicin",
+      "drug_b": "Oral Contraceptives",
+      "severity": "medium",
+      "mechanism": "Rifampicin is a potent inducer of CYP450 enzymes and P-glycoprotein. It markedly accelerates metabolism of estrogen and progestin, reducing contraceptive efficacy.",
+      "recommendation": "Use additional non-hormonal contraception during rifampicin therapy and for \u00e2\u2030\u00a54 weeks after discontinuation."
+    },
+    {
+      "drug_a": "ACE Inhibitors",
+      "drug_b": "ARBs",
+      "severity": "medium",
+      "mechanism": "Dual RAAS blockade provides no additional benefit for most patients and significantly increases risk of hypotension, hyperkalemia, and acute kidney injury.",
+      "recommendation": "Avoid simultaneous use of ACE inhibitors and ARBs. Choose one agent. Monitor renal function and potassium closely."
+    },
+    {
+      "drug_a": "Fluoroquinolones",
+      "drug_b": "Antacids",
+      "severity": "low",
+      "mechanism": "Divalent and trivalent cations in antacids (Mg2+, Al3+, Ca2+) chelate fluoroquinolones in the GI tract, reducing oral bioavailability by up to 90%.",
+      "recommendation": "Administer fluoroquinolones 2h before or 6h after antacids. If co-timing is unavoidable, consider IV administration."
+    },
+    {
+      "drug_a": "Ibuprofen",
+      "drug_b": "ACE Inhibitors",
+      "severity": "high",
+      "mechanism": "Combining NSAIDs with ACE inhibitors reduces glomerular filtration and can cause acute kidney injury, especially in volume-depleted patients.",
+      "recommendation": "Avoid concomitant use if possible. If required, monitor renal function and blood pressure closely."
+    }
+  ],
+  "allergy_class_map": {
+    "penicillin": [
+      "Amoxicillin",
+      "Ampicillin",
+      "Dicloxacillin",
+      "Nafcillin",
+      "Piperacillin"
+    ],
+    "cephalosporin": [
+      "Cephalexin",
+      "Cefazolin",
+      "Ceftriaxone",
+      "Cefdinir",
+      "Cefuroxime"
+    ],
+    "sulfa": [
+      "Sulfamethoxazole",
+      "Trimethoprim-Sulfamethoxazole",
+      "Sulfadiazine",
+      "Dapsone"
+    ],
+    "nsaid": [
+      "Ibuprofen",
+      "Naproxen",
+      "Aspirin",
+      "Diclofenac",
+      "Ketorolac",
+      "Indomethacin"
+    ],
+    "macrolide": [
+      "Azithromycin",
+      "Clarithromycin",
+      "Erythromycin",
+      "Roxithromycin"
+    ],
+    "fluoroquinolone": [
+      "Ciprofloxacin",
+      "Levofloxacin",
+      "Moxifloxacin",
+      "Ofloxacin"
+    ],
+    "opioid": [
+      "Morphine",
+      "Codeine",
+      "Oxycodone",
+      "Hydrocodone",
+      "Fentanyl",
+      "Tramadol"
+    ],
+    "tetracycline": [
+      "Doxycycline",
+      "Minocycline",
+      "Tetracycline"
+    ],
+    "statin": [
+      "Simvastatin",
+      "Atorvastatin",
+      "Rosuvastatin",
+      "Lovastatin",
+      "Pravastatin"
+    ]
+  },
+  "contraindication_map": {
+    "Metformin": [
+      "renal failure",
+      "ckd stage 4",
+      "ckd stage 5"
+    ],
+    "NSAIDs": [
+      "peptic ulcer",
+      "gi bleed",
+      "renal failure",
+      "heart failure"
+    ],
+    "Warfarin": [
+      "active bleeding",
+      "hemorrhagic stroke"
+    ],
+    "Sildenafil": [
+      "unstable angina",
+      "recent mi",
+      "hypotension"
+    ],
+    "Metoprolol": [
+      "asthma",
+      "copd",
+      "bradycardia",
+      "av block"
+    ],
+    "Lisinopril": [
+      "pregnancy",
+      "angioedema",
+      "bilateral renal artery stenosis"
+    ],
+    "Amiodarone": [
+      "thyroid disease",
+      "pulmonary fibrosis"
+    ],
+    "Lithium": [
+      "renal failure",
+      "dehydration"
+    ],
+    "Ciprofloxacin": [
+      "myasthenia gravis",
+      "tendon disorders"
+    ],
+    "Digoxin": [
+      "wolff-parkinson-white",
+      "av block"
+    ]
+  }
+}
